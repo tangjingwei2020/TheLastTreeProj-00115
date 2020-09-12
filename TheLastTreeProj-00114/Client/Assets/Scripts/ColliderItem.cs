@@ -35,7 +35,7 @@ public class ColliderItem : MonoBehaviour {
                // Debug.LogError("##treePos:" + treePos);
                // Debug.LogError("##collPos:" + collPos);
                 Vector3 direct = collPos - treePos;
-                transform.GetComponent<Rigidbody2D>().AddForce(new Vector2(direct.x * GameData.Instance.protectPower, direct.y * GameData.Instance.protectPower));
+                transform.GetComponent<Rigidbody2D>().AddForce(new Vector2(direct.x * GameData.Instance.protectPower * 2f, direct.y * GameData.Instance.protectPower  * 2f));
                 transform.Find("CollideImg").gameObject.SetActive(true);
             }
         }
@@ -48,7 +48,7 @@ public class ColliderItem : MonoBehaviour {
             Vector3 collPos = coll.gameObject.GetComponent<RectTransform>().localPosition;
 
             Vector3 direct = collPos - treePos;
-            transform.GetComponent<Rigidbody2D>().AddForce(new Vector2(direct.x * GameData.Instance.JGBPower, -direct.y * GameData.Instance.JGBPower));
+            transform.GetComponent<Rigidbody2D>().AddForce(new Vector2(direct.x * GameData.Instance.JGBPower * 2, -direct.y * GameData.Instance.JGBPower * 2));
         }
     }
 

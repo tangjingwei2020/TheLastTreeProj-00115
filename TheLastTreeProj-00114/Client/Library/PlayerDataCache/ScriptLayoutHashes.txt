@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-F:/WorkSpace/##apk/protect-04-05-0002.apk
+F:/WorkSpace/##apk/protect-08-01-0002.apk
 SceneListBegin?
 Assets/Scences/StartScene.unity
 Assets/Scences/MainScene.unity
@@ -190,5 +190,6 @@ c614e2948a9cff52dfd48f2591954d7b Assembly-CSharp.dll:.RotateDiamond
 3a6c36b4d403c4d4142c6e67732c782f Assembly-CSharp.dll:DG.Tweening.DOTweenAnimation
 6becf9f636ae656d2ff87dbc0ca4df82 Assembly-CSharp.dll:.TipsPanel
 80a0eed75f3ea045a4eaa85becbc2d65 Assembly-CSharp.dll:.RechargePanel
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.MoveTobubble
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.GameDefine
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ColliderItem
